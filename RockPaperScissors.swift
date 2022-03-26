@@ -32,7 +32,7 @@ func gameResults(choice: Int, randomNumber: Int) -> String {
   // declaring variables
   var result: String
 
-  // deterimes tie or winner of game
+  // deterimes tie or winner of the game
   if choice == randomNumber {
     result = "Tie Game!"
   } else if choice == rock && randomNumber == paper {
